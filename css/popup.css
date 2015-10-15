@@ -1,0 +1,20 @@
+body {
+    width: 400px;
+    background-color: #282828;
+    color: #efefef;
+    font-size: 15px;
+    font-family: "Lato","Helvetica","Neue","Helvetica",sans-serif;
+}
+a:link {
+    color: #fff
+}
+a:visited {
+    color: #fff
+}
+a:hover {
+    color: silver
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

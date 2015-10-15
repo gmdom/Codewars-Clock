@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "Codewars Clock",
+    "description": "Measures time spent on solving kata",
+    "version": "1.0",
+    "author": "Rafael Garcia",   
+    
+    "page_action": {
+    
+        "default_icon": "resources/icon.png",
+        "default_title": "Codewars Clock",
+        "default_popup": "popup.html"
+    },
+    
+    "background": {
+        "persistent": false,
+        "scripts": ["js/background.js"]
+    },     
+    
+    "icons": {
+          "128": "resources/icon_100.png"
+         
+        },
+    
+    "permissions": [
+           
+        "tabs",
+        "http://www.codewars.com/*",
+        "storage"       
+    ]
+}
